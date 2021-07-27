@@ -1,4 +1,5 @@
 import { dbContext } from "../db/DbContext"
+import { BadRequest } from "../utils/Errors"
 
 
 //in the service so we don't need try catch 
